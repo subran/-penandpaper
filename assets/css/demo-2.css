@@ -3,8 +3,8 @@
 /* Manrope */
 /* Header Styling */
 .logo, .dark-logo {
-  width: 150px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 400px; /* Adjust width as needed */
+  height: 200px; /* Maintain aspect ratio */
 }
 
 
@@ -950,8 +950,8 @@ header {
   z-index: 4;
 }
 .top-header .cr-logo img {
-  width: 115px;
-  height: 35px;
+  width: 200px;
+  height: 80px;
 }
 .top-header .cr-search {
   position: relative;
@@ -1894,6 +1894,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 }
 .cr-footer-logo .image img {
   width: 100px;
+  height: 30px;
 }
 .cr-footer-logo p {
   font-size: 14px;
@@ -2499,12 +2500,12 @@ p.news {
   background-color: transparent;
 }
 .cr-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #64b496;
+  background-color:#C39578;
 }
 
 .cr-banner-image-one {
   width: 100%;
-  background-image: url("../img/banner/bg10.png");
+  background-image: url("../img/banner/back.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2512,7 +2513,7 @@ p.news {
 
 .cr-banner-image-two {
   width: 100%;
-  background-image: url("../img/banner/bg5.png");
+  background-image: url("../img/banner/back2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
