@@ -1,6 +1,13 @@
 /* Typography */
 /* Typography */
 /* Manrope */
+/* Header Styling */
+.logo, .dark-logo {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
 
 @font-face {
   font-family: "Manrope", sans-serif;
@@ -2497,7 +2504,7 @@ p.news {
 
 .cr-banner-image-one {
   width: 100%;
-  background-image: url("../img/banner/hero.png");
+  background-image: url("../img/banner/bg10.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2505,7 +2512,7 @@ p.news {
 
 .cr-banner-image-two {
   width: 100%;
-  background-image: url("../img/banner/hero2.png");
+  background-image: url("../img/banner/bg5.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
