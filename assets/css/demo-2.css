@@ -938,7 +938,7 @@ a.back-to-top .back-to-top-wrap svg path {
 /* Header */
 header {
   height: 139px;
-  background-color: #aaa6a2;
+  background-color: #f5ece2;
   border-bottom: 1px solid #e9e9e9;
 }
 
@@ -2631,7 +2631,7 @@ p.news {
 
 .cr-banner-image-one {
   width: 100%;
-  background-image: url("../img/banner/slide1.png");
+  background-image: url("../img/banner/newback.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
