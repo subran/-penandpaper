@@ -3,10 +3,78 @@
 /* Manrope */
 /* Header Styling */
 .logo, .dark-logo {
-  width: 400px; /* Adjust width as needed */
-  height: 200px; /* Maintain aspect ratio */
+  width: 60000px; /* Reduced from 1000px */
+  height: 80px; /* Reduced from 400px */
+  object-fit: contain; /* Ensures image maintains aspect ratio */
+}
+/* Container Styling */
+.top-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 0; /* Reduced from 15px */
+  gap: 20px; /* Adds consistent spacing between elements */
 }
 
+.logodiv {
+  text-align: left; /* Changed from center to reduce blank space */
+}
+
+.logo {
+  display: inline-block;
+}
+
+.menu-section {
+  margin-left: auto;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none; /* Removes default bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-left: 20px; /* Adds spacing between menu items */
+}
+
+.menu-list li a {
+  text-decoration: none; /* Removes underline */
+  color: #000; /* Adjusts text color (modify as needed) */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Makes the text bold */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.menu-list li a:hover {
+  color: #007BFF; /* Change to desired hover color */
+}
+
+#cr_mobile_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  height: 100vh; /* Ensures full-height for centering */
+  text-align: center; /* Centers text inside links */
+}
+
+#cr_mobile_menu .cr-menu-content ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+#cr_mobile_menu .cr-menu-content ul li {
+  margin: 10px 0; /* Adds vertical spacing between items */
+}
+
+#cr_mobile_menu .cr-menu-content ul li a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits text color */
+  font-size: 18px; /* Adjust font size */
+}
 
 
 @font-face {
@@ -950,8 +1018,8 @@ header {
   z-index: 4;
 }
 .top-header .cr-logo img {
-  width: 200px;
-  height: 80px;
+  width: 900px;
+  height: 100px;
 }
 .top-header .cr-search {
   position: relative;
