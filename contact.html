@@ -36,7 +36,61 @@
             <link rel="stylesheet" href="assets/css/demo-2.css">
             <link rel="stylesheet" href="assets/css/color-3.css" id="add_class">
             <link rel="stylesheet" href="assets/css/style.css">
-
+            <style>
+                .header-items {
+              display: flex;
+              justify-content: flex-end; /* Align all items to the right */
+              align-items: center; /* Vertically center items */
+              width: 100%;
+          }
+          
+          .menu-section {
+              margin-right: 20px; /* Optional: space between menu and contact info */
+          }
+          
+          .contact-info ul {
+              display: flex; /* Display contact info in a row */
+              list-style: none; /* Remove bullet points */
+              padding: 0;
+              margin: 0;
+          }
+          
+          .contact-info li {
+              margin: 0 15px; /* Space between contact items */
+          }
+          
+          .contact-info a {
+              text-decoration: none;
+              color: #000; /* Adjust color as per your design */
+          }
+          
+          /* Responsive Media Query */
+          @media (max-width: 768px) {
+              .header-items {
+                  flex-direction: column; /* Stack items vertically on smaller screens */
+                  justify-content: center; /* Center items horizontally */
+              }
+          
+              .menu-section {
+                  margin-right: 0; /* Adjust margin for small screens */
+                  margin-bottom: 10px; /* Add space between menu and contact info */
+              }
+          
+              .contact-info ul {
+                  flex-direction: row; /* Keep contact items in the same row */
+                  align-items: center; /* Align items vertically in the center */
+                  justify-content: center; /* Center the contact info */
+              }
+          
+              .contact-info li {
+                  margin: 0 10px; /* Adjust spacing between contact items */
+              }
+          }
+          
+          
+          
+          
+              </style>
         </head>
         
         <body class="body-bg-6">
@@ -47,45 +101,51 @@
             </div>
         
             <!-- Header -->
+           
             <header>
+                <div class="header-items">
+                    <nav class="menu-section">
+                        <ul class="menu-list new">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="contact-info">
+                        <ul>
+                            <li>
+                                <a href="mailto:info@PandP.ae">
+                                    <i class="ri-mail-line"></i>
+                                    info@PandP.ae
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+971581724934">
+                                    <i class="ri-phone-line"></i>
+                                    +971 58 172 4934
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
+                            
                             <div class="top-header">
-                                <div class="logodiv text-center">
+                                <div class="logodiv text-center" style="display: flex; justify-content: center; align-items: center; width: 100%;">
                                     <div class="cr-logo">
                                         <img src="assets/img/logo/logopen.png" alt="logo" class="logo">
                                     </div>
                                     <img src="assets/img/logo/logopen.png" alt="logo" class="dark-logo">
-                                </div>
-                                <nav class="menu-section">
-                                    <ul class="menu-list new">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                    </ul>
-                                </nav>
-                                <div class="contact-info">
-                                    <ul>
-                                        <li>
-                                            <a href="mailto:info@PandP.ae">
-                                                <i class="ri-mail-line"></i>
-                                                info@PandP.ae
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="tel:+971581724934">
-                                                <i class="ri-phone-line"></i>
-                                                +971 58 172 4934
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
-
     
      <!-- Contact -->
     <section class="section-Contact padding-tb-100">
@@ -140,8 +200,11 @@
                         </div>
                         <div class="cr-info-content">
                             <h4 class="heading">Address</h4>
-                            <p><a href="javascript:void(0)"><i class="ri-map-pin-line"></i> &nbsp;PEN AND PAPER STATIONERY 
-                                 Behind KFC, Al Hamidiya 1 , Ajman</a></p>
+                            <p><a href="javascript:void(0)"><i class="ri-map-pin-line"></i> &nbsp;Opp. Garden City A2
+                                Almurjan -4 Building 
+                                Shop number 3
+                                Al Hamidiya 1
+                                Ajman - UAE/a></p>
                         </div>
                     </div>
                 </div>

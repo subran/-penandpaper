@@ -2,7 +2,79 @@
 /* Typography */
 /* Manrope */
 /* Header Styling */
+.top-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers content horizontally */
+  padding: 10px 0;
+  gap: 10px;
+}
 
+.logodiv {
+  display: flex; /* Turn the logo container into a flex container */
+  justify-content: center; /* Horizontally center the logo */
+  align-items: center; /* Vertically center the logo */
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.menu-section {
+  margin-left: 20px;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none; /* Removes default bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-left: 20px; /* Adds spacing between menu items */
+}
+
+.menu-list li a {
+  text-decoration: none; /* Removes underline */
+  color: #000; /* Adjusts text color (modify as needed) */
+  font-size: 19px; /* Adjust font size */
+  font-weight: bold; /* Makes the text bold */
+  transition: color 0.3s ease; /* Smooth hover effect */
+  white-space: nowrap;
+}
+
+.menu-list li a:hover {
+  color: #007BFF; /* Change to desired hover color */
+}
+
+#cr_mobile_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  height: 100vh; /* Ensures full-height for centering */
+  text-align: center; /* Centers text inside links */
+}
+
+#cr_mobile_menu .cr-menu-content ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+#cr_mobile_menu .cr-menu-content ul li {
+  margin: 10px 0; /* Adds vertical spacing between items */
+}
+
+#cr_mobile_menu .cr-menu-content ul li a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits text color */
+  font-size: 18px; /* Adjust font size */
+}
 .contact-info {
   display: flex;
   align-items: center;
@@ -1075,7 +1147,7 @@ header {
   z-index: 4;
 }
 .top-header .cr-logo img {
-  width: 300px;
+  width: 500px;
   height: 80px;
 }
 .top-header .cr-search {
@@ -1985,7 +2057,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
   }
   .top-header .cr-logo img {
     width: 500px;
-    height: 35px;
+    height: 60px;
   }
 }
 @media only screen and (max-width: 420px) {
@@ -2643,6 +2715,7 @@ p.news {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
 
 .cr-left-side-contain {
