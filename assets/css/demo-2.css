@@ -50,7 +50,7 @@
   /* Removes underline */
   color: #000;
   /* Adjusts text color (modify as needed) */
-  font-size: 19px;
+  font-size: 14px;
   /* Adjust font size */
   font-weight: bold;
   /* Makes the text bold */
@@ -138,7 +138,9 @@
   margin-right: 8px;
   font-size: 18px;
 }
-
+.slogan-mobile{
+  display: none;
+}
 /* For responsive design */
 @media (max-width: 768px) {
   .contact-info {
@@ -148,6 +150,13 @@
   .contact-info li {
     display: block;
     margin: 10px 0;
+  }
+  .slogan{
+    display: none;
+  }
+  .slogan-mobile{
+   display: block;
+   z-index: 100;
   }
 }
 
@@ -222,7 +231,7 @@
   /* Removes underline */
   color: #000;
   /* Adjusts text color (modify as needed) */
-  font-size: 19px;
+  font-size: 16px;
   /* Adjust font size */
   font-weight: bold;
   /* Makes the text bold */

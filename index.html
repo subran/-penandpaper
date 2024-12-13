@@ -47,22 +47,24 @@
             display: none;
         }
 
-        .moto-mobile{
+        .moto-mobile {
             font-size: 20px;
             text-align: center;
         }
 
         @media (min-width: 769px) {
-            .moto-mobile{
+            .moto-mobile {
                 display: none;
             }
         }
+
         @media (min-width: 575px) {
 
             .top-header {
                 padding: 10.5px 0;
             }
-            .bottom-header{
+
+            .bottom-header {
                 margin-inline: 20px;
                 margin-top: 11px;
             }
@@ -77,7 +79,8 @@
             .navHam {
                 display: none;
             }
-            .moto-desktop{
+
+            .moto-desktop {
                 display: none;
             }
 
@@ -88,12 +91,14 @@
                 align-items: center;
                 margin-top: 10px;
             }
-                .mobile-menu-nav-bar{
-                    order: 2;
-                }
-                .bottom-header{
-                    width: 80%;
-                }
+
+            .mobile-menu-nav-bar {
+                order: 2;
+            }
+
+            .bottom-header {
+                width: 80%;
+            }
 
         }
 
@@ -101,8 +106,6 @@
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
         }
-
-        
     </style>
 </head>
 
@@ -115,50 +118,38 @@
 
     <!-- Header -->
     <header>
-        <div style="height: 60px; width:100%; background:#000;
-    ">
-    <div class="container">
-<div class="top-header" style="color: #fff;">
-                       
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <nav class="menu-section navHam">
-                                    <ul class="menu-list new">
-                                        
-                                        <li style="color:#fff"><a href="mailto:info@PandP.ae" class="fw-normal" style="color:#fff">
-                                            <i class="fa fa-envelope" aria-hidden="true"></i> info@PandP.ae
+        <div style="height: 60px; width:100%; background:#000;">
+            <div class="container">
+                <div class="top-header" style="color: #fff;">
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <nav class="menu-section navHam">
+                                <ul class="menu-list new">
+
+                                    <li style="color:#fff"><a href="mailto:info@PandP.ae" class="fw-normal"
+                                            style="color:#fff">
+                                            <i class="ri-mail-line" aria-hidden="true" style="font-size: 28px;  color:#fff"></i> info@PandP.ae
                                         </a></li>
-                                        <li style="color:#fff"><a href="tel:+971581724934" class="fw-normal" style="color:#fff">
-                                            <i class="fa fa-phone-square" aria-hidden="true"></i> +971 58 172 4934
+                                    <li style="color:#fff"><a href="tel:+971581724934" class="fw-normal"
+                                            style="color:#fff">
+                                            <i class="ri-phone-fill" aria-hidden="true" style="font-size: 28px; color:#fff"></i> +971 58 172 4934
                                         </a></li>
-                                    </ul>
-                                </nav>
-                            </div>
+                                        <li style="color:#fff"><a href="https://api.whatsapp.com/send?phone=971581724934" class="fw-normal"
+                                            style="color:#fff">
+                                            <i class="ri-whatsapp-line" aria-hidden="true" style="font-size: 28px; color:#fff"></i> +971 58 172 4934
+                                        </a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
-</div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <!-- <div class="top-header">
-                       
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <nav class="menu-section navHam">
-                                    <ul class="menu-list new">
-                                        
-                                        <li><a href="mailto:info@PandP.ae" class="fw-normal">
-                                            <i class="fa fa-envelope" aria-hidden="true"></i> info@PandP.ae
-                                        </a></li>
-                                        <li><a href="tel:+971581724934" class="fw-normal">
-                                            <i class="fa fa-phone-square" aria-hidden="true"></i> +971 58 172 4934
-                                        </a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div> -->
+                  
                     <div class="row hamRow">
                         <div class="col-sm-2 col-2 mobile-menu-nav-bar">
                             <div class="container d-md-none pt-sm-4">
@@ -171,7 +162,7 @@
                                 <!-- Navbar links -->
                                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                                     <ul class="navbar-nav ms-auto">
-                                        
+
                                         <li class="nav-item">
                                             <a href="mailto:info@PandP.ae" class="nav-link fw-normal">
                                                 <i class="ri-mail-line"></i> info@PandP.ae
@@ -182,6 +173,11 @@
                                                 <i class="ri-phone-line"></i> +971 58 172 4934
                                             </a>
                                         </li>
+                                        <li class="nav-item">
+                                            <a href="tel:+971581724934" class="nav-link fw-normal">
+                                                <i class="ri-whatsapp-line"></i> +971 58 172 4934
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -189,66 +185,73 @@
                         <div class="col-sm-12 col-12 bottom-header">
                             <div class="logodiv" style="max-height: 100px;">
                                 <div class="cr-logo">
-                                    <img src="assets/img/logo/logopen.png" alt="logo" class="logo" style=" max-height: 90px;aspect-ratio: 905 / 276;width: auto;">
+                                    <img src="assets/img/logo/logopen.png" alt="logo" class="logo"
+                                        style=" max-height: 90px;aspect-ratio: 905 / 276;width: auto;">
                                 </div>
-                                <img src="assets/img/logo/logopen.png" alt="logo" class="dark-logo" style="max-height: 90px;aspect-ratio: 905 / 276;width: auto;">
+                                <img src="assets/img/logo/logopen.png" alt="logo" class="dark-logo"
+                                    style="max-height: 90px;aspect-ratio: 905 / 276;width: auto;">
 
-                                <h2 class="moto-desktop" style="color: #b3735c66;">Where the ideas take shape!</h2>
+                                <div class="slogan"> <img src="assets/img/banner/wherethedeastakeshape.png" alt="logo">
+                                </div>
 
                                 <nav class="menu-section navHam">
                                     <ul class="menu-list new">
                                         <li><a class="fw-normal" href="index.html">
-                                            <i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+                                                <i class="fa fa-home" aria-hidden="true"></i> HOME</a>
                                         </li>
                                         <li><a class="fw-normal" href="contact.html">
-                                            <i class="fa fa-address-book" aria-hidden="true"></i> CONTACT US</a>
+                                                <i class="fa fa-address-book" aria-hidden="true"></i> CONTACT US</a>
                                         </li>
-                                        </ul>
-                                    </nav>
+                                    </ul>
+                                </nav>
                             </div>
 
-                            
+
                         </div>
                     </div>
-                    <h2 class="moto-mobile" style="color: #b3735c66;">Where the ideas take shape!</h2>
+
                 </div>
             </div>
         </div>
+        <div class="slogan-mobile"
+            style="position: absolute;top: 175px;left: 40px;width: 100%;z-index: 2;"> <img
+                src="assets/img/banner/wherethedeastakeshape.png" alt="logo" style="width: 80%;"></div>
     </header>
-    
+
 
     <!-- Mobile menu -->
     <div class="cr-sidebar-overlay " style="margin-top: 0px;">
-    <div id="cr_mobile_menu" class="cr-side-cart cr-mobile-menu">
-        <img src="assets/img/logo/logopen.png" alt="logo" class="logo" style="aspect-ratio: 905 / 276;width: auto;">
-        <div class="cr-menu-title">
-            <span class="menu-title">Menu</span>
-            <button type="button" class="cr-close">X</button>
-        </div>
-        <div class="cr-menu-inner">
-            <div class="cr-menu-content">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="index.html"><i class="ri-home-line"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="contact.html"><i class="ri-contacts-line"></i> Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="mailto:info@PandP.ae" class="nav-link fw-normal">
-                            <i class="ri-mail-line"></i> info@PandP.ae
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="tel:+971581724934" class="nav-link fw-normal">
-                            <i class="ri-phone-line"></i> +971 58 172 4934
-                        </a>
-                    </li>
-                </ul>
+        <div id="cr_mobile_menu" class="cr-side-cart cr-mobile-menu">
+            <img src="assets/img/logo/logopen.png" alt="logo" class="logo" style="aspect-ratio: 905 / 276;width: auto;">
+            <div class="cr-menu-title">
+                <span class="menu-title">Menu</span>
+                <button type="button" class="cr-close">X</button>
+            </div>
+            <div class="cr-menu-inner">
+                <div class="cr-menu-content">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-normal" href="index.html"><i class="ri-home-line"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-normal" href="contact.html"><i class="ri-contacts-line"></i> Contact
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mailto:info@PandP.ae" class="nav-link fw-normal">
+                                <i class="ri-mail-line"></i> info@PandP.ae
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="tel:+971581724934" class="nav-link fw-normal">
+                                <i class="ri-phone-line"></i> +971 58 172 4934
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <!-- Hero slider -->
     <section class="section-hero hero-2">
@@ -1182,7 +1185,7 @@
                         </h4>
                         <ul class="cr-footer-links cr-footer-dropdown">
                             <li class="location-icon">
-                                Behind KFC, Al Hamidiya 1 , Ajman
+                                PEN AND PAPER STATIONERY Behind KFC,<br> Al Hamidiya 1 , Ajman
                             </li>
                             <li class="mail-icon">
                                 <a href="javascript:void(0)">info@PandP.ae</a>
@@ -1268,7 +1271,7 @@
                     </div>
                 </div>
                 <div class="cr-last-footer">
-                    <p>&copy; <span id="copyright_year"></span> <a href="index.html">Riosis pvt ltd</a>, All rights
+                    <p>&copy; <span id="copyright_year"></span> <a href="https://www.riosisinnovations.com">Riosis Innovations Pvt Ltd</a>, All rights
                         reserved.
                     </p>
 
