@@ -1940,7 +1940,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
   padding: 15px;
   position: fixed;
   top: 0;
-  left: -400px;
+  right: -400px;
   background-color: #fff;
   z-index: 22;
   overflow: auto;
@@ -2116,7 +2116,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 }
 
 .cr-menu-open {
-  left: 0 !important;
+  right: 0 !important;
 }
 
 .navbar-collapse {
@@ -2296,7 +2296,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 
   .cr-side-cart {
     width: 300px;
-    left: -300px;
+    right: -300px;
   }
 
   ul.navbar-nav .dropdown:hover .dropdown-menu {
@@ -2335,7 +2335,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 @media only screen and (max-width: 420px) {
   .cr-side-cart {
     width: 250px;
-    left: -250px;
+    right: -250px;
   }
 
   .top-header .cr-search select {
