@@ -155,7 +155,7 @@
     display: none;
   }
   .slogan-mobile{
-   display: block;
+   display: none;
    z-index: 100;
   }
 }
