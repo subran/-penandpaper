@@ -10626,16 +10626,7 @@ iframe {
 
 /*# sourceMappingURL=style.css.map */
 
-.fa::before {
-  content: "";
-  background: #9E9E9E;
-  color: brown;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-}
+
 
 
 @media(min-width:768px) {

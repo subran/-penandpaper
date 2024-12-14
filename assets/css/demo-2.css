@@ -138,9 +138,11 @@
   margin-right: 8px;
   font-size: 18px;
 }
-.slogan-mobile{
+
+.slogan-mobile {
   display: none;
 }
+
 /* For responsive design */
 @media (max-width: 768px) {
   .contact-info {
@@ -151,12 +153,22 @@
     display: block;
     margin: 10px 0;
   }
-  .slogan{
+
+  .slogan {
     display: none;
   }
-  .slogan-mobile{
-   display: none;
-   z-index: 100;
+
+  .slogan-mobile {
+    display: block;
+    z-index: 100;
+    transform: translate(5.6rem, -0.5rem);
+    max-width: 281px;
+  }
+}
+
+@media(max-width:380px) {
+  .slogan-mobile {
+    transform: translate(5.7rem, -0.5rem);
   }
 }
 
